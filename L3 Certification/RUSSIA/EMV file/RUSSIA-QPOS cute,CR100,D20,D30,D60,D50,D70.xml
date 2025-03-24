@@ -1,0 +1,433 @@
+<app><!--1:00000000000000000000000000000000-->
+	<9F06>00000000000000000000000000000000</9F06> <!--Application Identifier(AID)–terminal-->
+	<5F2A>0643</5F2A><!--Transaction Currency Code-->
+	<5F36>02</5F36><!--Tranasction Currency Exponent-->
+	<9F01>000000000000</9F01><!--Acquirer Identifier-->
+	<9F15>0000</9F15><!--Merchant Category Code-->
+	<9F16>000000000000000000000000000000</9F16><!--Merchant Identifier-->
+	<9F1A>0643</9F1A><!--Terminal Country Code-->
+	<9F1C>0000000000000000</9F1C><!--Terminal Identification-->
+	<9F1E>0000000000000000</9F1E><!--Interface Device (IFD) Serial Number-->
+	<9F33>E0B8C8</9F33><!--Terminal Capabilities-->
+	<9F35>22</9F35><!--Terminal Type-->
+	<9F39>00</9F39><!--Point-of-Service (POS) Entry Mode-->
+	<9F40>FF80F0B001</9F40><!--Additional Terminal Capabilities-->
+	<9F4E>61626364</9F4E><!--Merchant Name and Location-->
+	<9F8117>01</9F8117><!--Contact Boolean indicating whether the PSE-->
+	<9F8118>00</9F8118><!--Contact reselect pse-->
+	<9F8143>01</9F8143><!--Contact floor limit checking-->
+	<9F8145>01</9F8145><!--Contact Velocity Checking-->
+	<9F8147>00</9F8147><!--Contact Transaction force online-->
+	<9F8303>01</9F8303><!--Support AID Choosing-->
+	<7F15>7F16239F821801069F8208060000000007009F8209060000000002009F820A060000000004007F16239F8218010B9F8208060000000003009F8209060000000002009F820A06000000000100</7F15><!--AMEX DRL-->
+</app>
+
+<app><!--2:A0000000031010-->
+	<9F06>A0000000031010</9F06> <!--Application Identifier(AID)–terminal-->
+	<DF01>00</DF01> <!--Application Selection Indicator-->
+	<9F09>0096</9F09> <!--Terminal Application Version Number-->
+	<9F1B>00000000</9F1B> <!--Terminal Floor Limit-->
+	<9F1E>3833323031494343</9F1E><!--Interface Device (IFD) Serial Number-->
+	<9F66>31E04000</9F66> <!--Contactless Terminal Transaction Qualifiers-->
+	<9F8125>9F3704</9F8125> <!--Contact Default Dynamic Data Authentication Data Object List (DDOL)-->
+	<9F8127>00</9F8127> <!--Contact Maximum Target Percentage to be Used for Biased Random Selection-->
+	<9F8128>00</9F8128> <!--Contact Target Percentage to Be Used for Random Selection-->
+	<9F8129>00000000</9F8129> <!--Contact Threshold Value for Biased random Selection-->
+	<9F812A>DC4000A800</9F812A> <!--Contact Terminal Action Code Default-->
+	<9F812B>0010000000</9F812B> <!--Contact Terminal Action Code Denial-->
+	<9F812C>DC4000A800</9F812C> <!--Contact Terminal Action Code Online-->
+	<9F928100>05010000</9F928100> <!--Contactless Unknown-->
+	<9F928101>00</9F928101> <!--Contactless online/declined when the ODA failed, 0:declined;1:online-->
+	<9F92810A>FE00</9F92810A> <!--Contactless Terminal Limit Configuration-->
+	<9F92810D>999999999999</9F92810D> <!--Contactless Amount Limit-->
+	<9F92810E>000000300000</9F92810E> <!--Contactless CVM Amount Limit-->
+	<9F92810F>000000000000</9F92810F> <!--Contactless Terminal Offline Floor Limit-->
+</app>
+
+<app><!--3:A0000000032010-->
+	<9F06>A0000000032010</9F06> <!--Application Identifier(AID)–terminal-->
+	<DF01>00</DF01> <!--Application Selection Indicator-->
+	<9F09>0096</9F09> <!--Terminal Application Version Number-->
+	<9F1B>00000000</9F1B> <!--Terminal Floor Limit-->
+	<9F1E>3833323031494343</9F1E><!--Interface Device (IFD) Serial Number-->
+	<9F66>31E04000</9F66> <!--Contactless Terminal Transaction Qualifiers-->
+	<9F8125>9F3704</9F8125> <!--Contact Default Dynamic Data Authentication Data Object List (DDOL)-->
+	<9F8127>00</9F8127> <!--Contact Maximum Target Percentage to be Used for Biased Random Selection-->
+	<9F8128>00</9F8128> <!--Contact Target Percentage to Be Used for Random Selection-->
+	<9F8129>00000000</9F8129> <!--Contact Threshold Value for Biased random Selection-->
+	<9F812A>DC4000A800</9F812A> <!--Contact Terminal Action Code Default-->
+	<9F812B>0010000000</9F812B> <!--Contact Terminal Action Code Denial-->
+	<9F812C>DC4000A800</9F812C> <!--Contact Terminal Action Code Online-->
+	<9F928100>05010000</9F928100> <!--Contactless Unknown-->
+	<9F928101>00</9F928101> <!--Contactless online/declined when the ODA failed, 0:declined;1:online-->
+	<9F92810A>FE00</9F92810A> <!--Contactless Terminal Limit Configuration-->
+	<9F92810D>999999999999</9F92810D> <!--Contactless Amount Limit-->
+	<9F92810E>000000300000</9F92810E> <!--Contactless CVM Amount Limit-->
+	<9F92810F>000000000000</9F92810F> <!--Contactless Terminal Offline Floor Limit-->
+</app>
+
+<app><!--4:A0000000033010-->
+	<9F06>A0000000033010</9F06> <!--Application Identifier(AID)–terminal-->
+	<DF01>00</DF01> <!--Application Selection Indicator-->
+	<9F09>0096</9F09> <!--Terminal Application Version Number-->
+	<9F1B>00000000</9F1B> <!--Terminal Floor Limit-->
+	<9F1E>3833323031494343</9F1E><!--Interface Device (IFD) Serial Number-->
+	<9F66>31E04000</9F66> <!--Contactless Terminal Transaction Qualifiers-->
+	<9F8125>9F3704</9F8125> <!--Contact Default Dynamic Data Authentication Data Object List (DDOL)-->
+	<9F8127>00</9F8127> <!--Contact Maximum Target Percentage to be Used for Biased Random Selection-->
+	<9F8128>00</9F8128> <!--Contact Target Percentage to Be Used for Random Selection-->
+	<9F8129>00000000</9F8129> <!--Contact Threshold Value for Biased random Selection-->
+	<9F812A>DC4000A800</9F812A> <!--Contact Terminal Action Code Default-->
+	<9F812B>0010000000</9F812B> <!--Contact Terminal Action Code Denial-->
+	<9F812C>DC4000A800</9F812C> <!--Contact Terminal Action Code Online-->
+	<9F928100>05010000</9F928100> <!--Contactless Unknown-->
+	<9F928101>00</9F928101> <!--Contactless online/declined when the ODA failed, 0:declined;1:online-->
+	<9F92810A>FE00</9F92810A> <!--Contactless Terminal Limit Configuration-->
+	<9F92810D>999999999999</9F92810D> <!--Contactless Amount Limit-->
+	<9F92810E>000000300000</9F92810E> <!--Contactless CVM Amount Limit-->
+	<9F92810F>000000000000</9F92810F> <!--Contactless Terminal Offline Floor Limit-->
+</app>
+
+<app><!--5:A0000000041010-->
+	<9F06>A0000000041010</9F06> <!--Application Identifier(AID)–terminal-->
+	<5F2A>0643</5F2A><!--Transaction Currency Code-->
+	<DF01>00</DF01> <!--Application Selection Indicator-->
+	<9F09>0002</9F09> <!--Terminal Application Version Number-->
+	<9F1A>0643</9F1A><!--Terminal Country Code-->
+	<9F1B>00000000</9F1B> <!--Terminal Floor Limit-->
+	<9F1D>6C00000000000000</9F1D> <!--Terminal Risk Management Parameters-->
+	<9F1E>3833323031494343</9F1E><!--Interface Device (IFD) Serial Number-->
+	<9F35>22</9F35><!--Terminal Type-->
+	<9F53>52</9F53><!--Mastercard Merchant category code-->
+    <9F5C>7A45123EE59C7F40</9F5C>
+	<9F6D>0001</9F6D> <!--Contactless Mag-stripe Application Version Number (Reader)-->
+	<9F7E></9F7E> <!--Mobile Support Indicator-->
+	<9F8125>9F3704</9F8125> <!--Contact Default Dynamic Data Authentication Data Object List (DDOL)-->
+	<9F8127>00</9F8127> <!--Contact Maximum Target Percentage to be Used for Biased Random Selection-->
+	<9F8128>00</9F8128> <!--Contact Target Percentage to Be Used for Random Selection-->
+	<9F8129>00000000</9F8129> <!--Contact Threshold Value for Biased random Selection-->
+	<9F812A>FE50B8A000</9F812A> <!--Contact Terminal Action Code Default-->
+	<9F812B>0000000000</9F812B> <!--Contact Terminal Action Code Denial-->
+	<9F812C>FE50B8A000</9F812C> <!--Contact Terminal Action Code Online-->
+	<DF60></DF60> <!--Contactless DS Input (Card)-->
+	<DF62></DF62> <!--Contactless DS ODS Info-->
+	<DF63></DF63> <!--Contactless DS ODS Term-->
+	<DF8108></DF8108> <!--Contactless DS AC Type-->
+	<DF8109></DF8109> <!--Contactless DS Input (Term)-->
+	<DF810A></DF810A> <!--Contactless DS ODS Info For Reader-->
+	<DF810C>02</DF810C> <!--Contactless Kernel ID-->
+	<DF810D>02</DF810D> <!--Contactless DSVN Term-->
+	<DF8117>20</DF8117> <!--Contactless Card Data Input Capability-->
+	<DF8118>60</DF8118> <!--Contactless CVM Capability – CVM Required-->
+	<DF8119>08</DF8119> <!--Contactless CVM Capability – No CVM Required-->
+	<DF811A>9F6A04</DF811A> <!--Contactless Default UDOL-->
+	<DF811B>A0</DF811B> <!--Contactless Kernel Configuration-->
+	<DF811C>00</DF811C> <!--Contactless Max Lifetime of Torn Transaction Log Record-->
+	<DF811D>00</DF811D> <!--Contactless Max Number of Torn Transaction Log Records-->
+	<DF811E>10</DF811E> <!--Contactless Mag-stripe CVM Capability – CVM Required-->
+	<DF811F>08</DF811F> <!--Contactless Security Capability-->
+	<DF8120>F45080800C</DF8120> <!--Contactless Terminal Action Code – Default-->
+	<DF8121>0000000000</DF8121> <!--Contactless Terminal Action Code – Denial-->
+	<DF8122>F45080800C</DF8122> <!--Contactless Terminal Action Code – Online-->
+	<DF8123>000000000000</DF8123> <!--Contactless Reader Contactless Floor Limit-->
+	<DF8124>999999999999</DF8124> <!--Contactless Reader Contactless Transaction Limit (No On-device CVM)-->
+	<DF8125>999999999999</DF8125> <!--Contactless Reader Contactless Transaction Limit (On-device CVM)-->
+	<DF8126>000000500000</DF8126> <!--Contactless Reader CVM Required Limit-->
+	<DF812C>00</DF812C> <!--Contactless Mag-stripe CVM Capability – No CVM Required-->
+</app>
+
+<app><!--6:A0000000043060-->
+	<9F06>A0000000043060</9F06> <!--Application Identifier(AID)–terminal-->
+	<5F2A>0643</5F2A><!--Transaction Currency Code-->
+	<DF01>00</DF01> <!--Application Selection Indicator-->
+	<9F09>0002</9F09> <!--Terminal Application Version Number-->
+	<9F1A>0643</9F1A><!--Terminal Country Code-->
+	<9F1B>00000000</9F1B> <!--Terminal Floor Limit-->
+	<9F1D>4C00800000000000</9F1D> <!--Terminal Risk Management Parameters-->
+	<9F1E>3833323031494343</9F1E><!--Interface Device (IFD) Serial Number-->
+	<9F35>22</9F35><!--Terminal Type-->
+	<9F53>52</9F53><!--Mastercard Merchant category code-->
+    <9F5C>7A45123EE59C7F40</9F5C>
+	<9F6D>0001</9F6D> <!--Contactless Mag-stripe Application Version Number (Reader)-->
+	<9F7E></9F7E> <!--Mobile Support Indicator-->
+	<9F8125>9F3704</9F8125> <!--Contact Default Dynamic Data Authentication Data Object List (DDOL)-->
+	<9F8127>00</9F8127> <!--Contact Maximum Target Percentage to be Used for Biased Random Selection-->
+	<9F8128>00</9F8128> <!--Contact Target Percentage to Be Used for Random Selection-->
+	<9F8129>00000000</9F8129> <!--Contact Threshold Value for Biased random Selection-->
+	<9F812A>FE50B8A000</9F812A> <!--Contact Terminal Action Code Default-->
+	<9F812B>0000000000</9F812B> <!--Contact Terminal Action Code Denial-->
+	<9F812C>FE50B8A000</9F812C> <!--Contact Terminal Action Code Online-->
+	<DF60></DF60> <!--Contactless DS Input (Card)-->
+	<DF62></DF62> <!--Contactless DS ODS Info-->
+	<DF63></DF63> <!--Contactless DS ODS Term-->
+	<DF8108></DF8108> <!--Contactless DS AC Type-->
+	<DF8109></DF8109> <!--Contactless DS Input (Term)-->
+	<DF810A></DF810A> <!--Contactless DS ODS Info For Reader-->
+	<DF810C>02</DF810C> <!--Contactless Kernel ID-->
+	<DF810D>02</DF810D> <!--Contactless DSVN Term-->
+	<DF8117>20</DF8117> <!--Contactless Card Data Input Capability-->
+	<DF8118>60</DF8118> <!--Contactless CVM Capability – CVM Required-->
+	<DF8119>08</DF8119> <!--Contactless CVM Capability – No CVM Required-->
+	<DF811A>9F6A04</DF811A> <!--Contactless Default UDOL-->
+	<DF811B>A0</DF811B> <!--Contactless Kernel Configuration-->
+	<DF811C>00</DF811C> <!--Contactless Max Lifetime of Torn Transaction Log Record-->
+	<DF811D>00</DF811D> <!--Contactless Max Number of Torn Transaction Log Records-->
+	<DF811E>10</DF811E> <!--Contactless Mag-stripe CVM Capability – CVM Required-->
+	<DF811F>08</DF811F> <!--Contactless Security Capability-->
+	<DF8120>F45080800C</DF8120> <!--Contactless Terminal Action Code – Default-->
+	<DF8121>0000000000</DF8121> <!--Contactless Terminal Action Code – Denial-->
+	<DF8122>F45080800C</DF8122> <!--Contactless Terminal Action Code – Online-->
+	<DF8123>000080000000</DF8123> <!--Contactless Reader Contactless Floor Limit-->
+	<DF8124>999999999999</DF8124> <!--Contactless Reader Contactless Transaction Limit (No On-device CVM)-->
+	<DF8125>999999999999</DF8125> <!--Contactless Reader Contactless Transaction Limit (On-device CVM)-->
+	<DF8126>000000500000</DF8126> <!--Contactless Reader CVM Required Limit-->
+	<DF812C>00</DF812C> <!--Contactless Mag-stripe CVM Capability – No CVM Required-->
+</app>
+
+<app><!--7:A00000002501-->
+	<9F06>A00000002501</9F06> <!--Application Identifier(AID)–terminal-->
+	<DF01>00</DF01> <!--Application Selection Indicator-->
+	<9F09>0001</9F09> <!--Terminal Application Version Number-->
+	<9F1B>00000000</9F1B> <!--Terminal Floor Limit-->
+	<9F6D>C0</9F6D> <!--Contactless Mag-stripe Application Version Number (Reader)-->
+	<9F6E>DCE04000</9F6D> <!--Enhanced Contactless Reader Capabilities-->
+	<9F8125>9F3704</9F8125> <!--Contact Default Dynamic Data Authentication Data Object List (DDOL)-->
+	<9F8127>00</9F8127> <!--Contact Maximum Target Percentage to be Used for Biased Random Selection-->
+	<9F8128>00</9F8128> <!--Contact Target Percentage to Be Used for Random Selection-->
+	<9F8129>00000000</9F8129> <!--Contact Threshold Value for Biased random Selection-->
+	<9F812A>0000000000</9F812A> <!--Contact Terminal Action Code Default-->
+	<9F812B>0000000000</9F812B> <!--Contact Terminal Action Code Denial-->
+	<9F812C>0000000000</9F812C> <!--Contact Terminal Action Code Online-->
+	<9F8208>000001000000</9F8208> <!--Contactless Amount Limit-->
+	<9F8209>000000000000</9F8209> <!--Contactless CVM Amount Limit-->
+	<9F820A>000000000000</9F820A> <!--Contactless Terminal Offline Floor Limit-->
+    <9F8218>E0</9F8218><!--DRL Reader Limit Control-->
+	<9F8240>01</9F8240><!--Dectec CDA before GAC-->
+</app>
+
+<app><!--9:A0000000651010-->
+	<9F06>A0000000651010</9F06> <!--Application Identifier(AID)–terminal-->
+	<DF01>00</DF01> <!--Application Selection Indicator-->
+	<9F09>0200</9F09> <!--Terminal Application Version Number-->
+	<9F1B>00000000</9F1B> <!--Terminal Floor Limit-->
+	<9F8125>9F3704</9F8125> <!--Contact Default Dynamic Data Authentication Data Object List (DDOL)-->
+	<9F8127>00</9F8127> <!--Contact Maximum Target Percentage to be Used for Biased Random Selection-->
+	<9F8128>00</9F8128> <!--Contact Target Percentage to Be Used for Random Selection-->
+	<9F8129>00000000</9F8129> <!--Contact Threshold Value for Biased random Selection-->
+	<9F812A>FC6024A800</9F812A> <!--Contact Terminal Action Code Default-->
+	<9F812B>0010000000</9F812B> <!--Contact Terminal Action Code Denial-->
+	<9F812C>FC6024A800</9F812C> <!--Contact Terminal Action Code Online-->
+</app>
+
+<app><!--11:A0000003330101-->
+	<9F06>A0000003330101</9F06> <!--Application Identifier(AID)–terminal-->
+	<DF01>00</DF01> <!--Application Selection Indicator-->
+	<9F09>0020</9F09> <!--Terminal Application Version Number-->
+	<9F1B>00000000</9F1B> <!--Terminal Floor Limit-->
+	<9F1E>3833323031494343</9F1E><!--Interface Device (IFD) Serial Number-->
+	<9F66>B2604000</9F66> <!--Contactless Terminal Transaction Qualifiers-->
+	<9F8125>9F3704</9F8125> <!--Contact Default Dynamic Data Authentication Data Object List (DDOL)-->
+	<9F8127>00</9F8127> <!--Contact Maximum Target Percentage to be Used for Biased Random Selection-->
+	<9F8128>00</9F8128> <!--Contact Target Percentage to Be Used for Random Selection-->
+	<9F8129>00000000</9F8129> <!--Contact Threshold Value for Biased random Selection-->
+	<9F812A>D84000A800</9F812A> <!--Contact Terminal Action Code Default-->
+	<9F812B>0010000000</9F812B> <!--Contact Terminal Action Code Denial-->
+	<9F812C>D84000A800</9F812C> <!--Contact Terminal Action Code Online-->
+	<9F928100>05010000</9F928100> <!--Contactless Unknown-->
+	<9F928101>00</9F928101> <!--Contactless online/declined when the ODA failed, 0:declined;1:online-->
+	<9F92810A>FE00</9F92810A> <!--Contactless Terminal Limit Configuration-->
+	<9F92810D>000001000000</9F92810D> <!--Contactless Amount Limit-->
+	<9F92810E>000000100000</9F92810E> <!--Contactless CVM Amount Limit-->
+	<9F92810F>000000000000</9F92810F> <!--Contactless Terminal Offline Floor Limit-->
+</app>
+
+<!--MIR-->
+<app>
+    <9F06>A0000006582010</9F06>		
+	<DF01>00</DF01>
+	<9F1E>3833323031494343</9F1E>
+	<9F09>0001</9F09> <!--Terminal Application Version Number-->
+	<9F1B>00000000</9F1B> <!--Terminal Floor Limit-->	
+	<9F812A>BC40A8A800</9F812A> <!--Contact Terminal Action Code Default-->
+	<9F812B>0010000000</9F812B> <!--Contact Terminal Action Code Denial-->
+	<9F812C>BC40A8A800</9F812C> <!--Contact Terminal Action Code Online-->		
+	<DF51>000000010000</DF51>
+	<DF52>000000000500</DF52>
+	<DF53>000000003000</DF53>
+	<DF54>000000002000</DF54>	
+	<DF55>E800</DF55>
+	<DF56>01</DF56>
+	<9F09>0001</9F09>
+	<9F8125>9F3704</9F8125> <!--Contact Default Dynamic Data Authentication Data Object List (DDOL)-->
+	<9F8127>00</9F8127> <!--Contact Maximum Target Percentage to be Used for Biased Random Selection-->
+	<9F8128>00</9F8128> <!--Contact Target Percentage to Be Used for Random Selection-->
+	<9F8129>00000000</9F8129> <!--Contact Threshold Value for Biased random Selection-->
+</app>
+
+<!--MIR-->
+<app>
+    <9F06>A0000006581010</9F06>	
+	<DF01>00</DF01>
+	<9F1E>3833323031494343</9F1E>
+	<9F09>0001</9F09> <!--Terminal Application Version Number-->
+	<9F1B>00000000</9F1B> <!--Terminal Floor Limit-->	
+	<9F812A>BC40A8A800</9F812A> <!--Contact Terminal Action Code Default-->
+	<9F812B>0010000000</9F812B> <!--Contact Terminal Action Code Denial-->
+	<9F812C>BC40A8A800</9F812C> <!--Contact Terminal Action Code Online-->	
+	<DF51>000000010000</DF51>
+	<DF52>000000000500</DF52>
+	<DF53>000000003000</DF53>
+	<DF54>000000002000</DF54>	
+	<DF55>E800</DF55>
+	<DF56>01</DF56>
+	<9F09>0001</9F09>
+	<9F8125>9F3704</9F8125> <!--Contact Default Dynamic Data Authentication Data Object List (DDOL)-->
+	<9F8127>00</9F8127> <!--Contact Maximum Target Percentage to be Used for Biased Random Selection-->
+	<9F8128>00</9F8128> <!--Contact Target Percentage to Be Used for Random Selection-->
+	<9F8129>00000000</9F8129> <!--Contact Threshold Value for Biased random Selection-->
+</app>
+<!--MIR-->
+<app>
+    <9F06>A0000006582099</9F06>
+	<DF01>00</DF01>
+	<9F1E>3833323031494343</9F1E>
+	<9F09>0001</9F09> <!--Terminal Application Version Number-->
+	<9F1B>00000000</9F1B> <!--Terminal Floor Limit-->	
+	<9F812A>BC40A8A800</9F812A> <!--Contact Terminal Action Code Default-->
+	<9F812B>0010000000</9F812B> <!--Contact Terminal Action Code Denial-->
+	<9F812C>BC40A8A800</9F812C> <!--Contact Terminal Action Code Online-->	
+	<DF51>000000010000</DF51>
+	<DF52>000000000500</DF52>
+	<DF53>000000003000</DF53>
+	<DF54>000000002000</DF54>	
+	<DF55>E800</DF55>
+	<DF56>01</DF56>
+	<9F09>0001</9F09>
+	<9F8125>9F3704</9F8125> <!--Contact Default Dynamic Data Authentication Data Object List (DDOL)-->
+	<9F8127>00</9F8127> <!--Contact Maximum Target Percentage to be Used for Biased Random Selection-->
+	<9F8128>00</9F8128> <!--Contact Target Percentage to Be Used for Random Selection-->
+	<9F8129>00000000</9F8129> <!--Contact Threshold Value for Biased random Selection-->
+</app>
+<!--MIR-->
+<app>
+    <9F06>A0000006581099</9F06>
+	<DF01>00</DF01>
+	<9F1E>3833323031494343</9F1E>
+	<9F09>0001</9F09> <!--Terminal Application Version Number-->
+	<9F1B>00000000</9F1B> <!--Terminal Floor Limit-->	
+	<9F812A>BC40A8A800</9F812A> <!--Contact Terminal Action Code Default-->
+	<9F812B>0010000000</9F812B> <!--Contact Terminal Action Code Denial-->
+	<9F812C>BC40A8A800</9F812C> <!--Contact Terminal Action Code Online-->	
+	<DF51>000000010000</DF51>
+	<DF52>000000000500</DF52>
+	<DF53>000000003000</DF53>
+	<DF54>000000002000</DF54>	
+	<DF55>E800</DF55>
+	<DF56>01</DF56>
+	<9F09>0001</9F09>
+	<9F8125>9F3704</9F8125> <!--Contact Default Dynamic Data Authentication Data Object List (DDOL)-->
+	<9F8127>00</9F8127> <!--Contact Maximum Target Percentage to be Used for Biased Random Selection-->
+	<9F8128>00</9F8128> <!--Contact Target Percentage to Be Used for Random Selection-->
+	<9F8129>00000000</9F8129> <!--Contact Threshold Value for Biased random Selection-->
+</app>
+
+<!--Visa-->
+<capk>
+    <9F06>A000000003</9F06> <!--RID-->
+    <9F22>08</9F22> <!--Public Key Index-->
+    <DF05>20311223</DF05> <!--Public Key Expired Date-->
+    <DF02>D9FD6ED75D51D0E30664BD157023EAA1FFA871E4DA65672B863D255E81E137A51DE4F72BCC9E44ACE12127F87E263D3AF9DD9CF35CA4A7B01E907000BA85D24954C2FCA3074825DDD4C0C8F186CB020F683E02F2DEAD3969133F06F7845166ACEB57CA0FC2603445469811D293BFEFBAFAB57631B3DD91E796BF850A25012F1AE38F05AA5C4D6D03B1DC2E568612785938BBC9B3CD3A910C1DA55A5A9218ACE0F7A21287752682F15832A678D6E1ED0B</DF02> <!--Public Key Moudle-->
+    <DF03>20D213126955DE205ADC2FD2822BD22DE21CF9A8</DF03>
+    <DF04>000003</DF04> <!--Public Key Exponent-->
+    <DF06>01</DF06> <!--Public Key Hash Algorithm-->
+    <DF07>01</DF07> <!--Public Key Algorithm-->
+</capk>
+<!--Visa-->
+<capk>
+    <9F06>A000000003</9F06> <!--RID-->
+    <9F22>09</9F22> <!--Public Key Index-->
+    <DF05>20311222</DF05> <!--Public Key Expired Date-->
+    <DF02>9D912248DE0A4E39C1A7DDE3F6D2588992C1A4095AFBD1824D1BA74847F2BC4926D2EFD904B4B54954CD189A54C5D1179654F8F9B0D2AB5F0357EB642FEDA95D3912C6576945FAB897E7062CAA44A4AA06B8FE6E3DBA18AF6AE3738E30429EE9BE03427C9D64F695FA8CAB4BFE376853EA34AD1D76BFCAD15908C077FFE6DC5521ECEF5D278A96E26F57359FFAEDA19434B937F1AD999DC5C41EB11935B44C18100E857F431A4A5A6BB65114F174C2D7B59FDF237D6BB1DD0916E644D709DED56481477C75D95CDD68254615F7740EC07F330AC5D67BCD75BF23D28A140826C026DBDE971A37CD3EF9B8DF644AC385010501EFC6509D7A41</DF02> <!--Public Key Moudle-->
+    <DF03>1FF80A40173F52D7D27E0F26A146A1C8CCB29046</DF03>
+    <DF04>000003</DF04> <!--Public Key Exponent-->
+    <DF06>01</DF06> <!--Public Key Hash Algorithm-->
+    <DF07>01</DF07> <!--Public Key Algorithm-->
+</capk>
+
+<!--MasterCard-->
+<capk>
+    <9F06>A000000004</9F06> <!--RID-->
+    <9F22>04</9F22> <!--Public Key Index-->
+    <DF05>20311217</DF05> <!--Public Key Expired Date-->
+    <DF04>000003</DF04> <!--Public Key Exponent-->
+    <DF02>A6DA428387A502D7DDFB7A74D3F412BE762627197B25435B7A81716A700157DDD06F7CC99D6CA28C2470527E2C03616B9C59217357C2674F583B3BA5C7DCF2838692D023E3562420B4615C439CA97C44DC9A249CFCE7B3BFB22F68228C3AF13329AA4A613CF8DD853502373D62E49AB256D2BC17120E54AEDCED6D96A4287ACC5C04677D4A5A320DB8BEE2F775E5FEC5</DF02> <!--Public Key Moudle-->
+    <DF03>381A035DA58B482EE2AF75F4C3F2CA469BA4AA6C</DF03>
+    <DF06>01</DF06> <!--Public Key Hash Algorithm-->
+    <DF07>01</DF07> <!--Public Key Algorithm-->
+</capk>
+<!--MasterCard-->
+<capk>
+    <9F06>A000000004</9F06> <!--RID-->
+    <9F22>05</9F22> <!--Public Key Index-->
+    <DF05>20311223</DF05> <!--Public Key Expired Date-->
+    <DF04>000003</DF04> <!--Public Key Exponent-->
+    <DF02>B8048ABC30C90D976336543E3FD7091C8FE4800DF820ED55E7E94813ED00555B573FECA3D84AF6131A651D66CFF4284FB13B635EDD0EE40176D8BF04B7FD1C7BACF9AC7327DFAA8AA72D10DB3B8E70B2DDD811CB4196525EA386ACC33C0D9D4575916469C4E4F53E8E1C912CC618CB22DDE7C3568E90022E6BBA770202E4522A2DD623D180E215BD1D1507FE3DC90CA310D27B3EFCCD8F83DE3052CAD1E48938C68D095AAC91B5F37E28BB49EC7ED597</DF02> <!--Public Key Moudle-->
+    <DF03>EBFA0D5D06D8CE702DA3EAE890701D45E274C845</DF03>
+    <DF06>01</DF06> <!--Public Key Hash Algorithm-->
+    <DF07>01</DF07> <!--Public Key Algorithm-->
+</capk>
+<!--MasterCard-->
+<capk>
+    <9F06>A000000004</9F06> <!--RID-->
+    <9F22>06</9F22> <!--Public Key Index-->
+    <DF05>20311223</DF05> <!--Public Key Expired Date-->
+    <DF04>000003</DF04> <!--Public Key Exponent-->
+    <DF02>CB26FC830B43785B2BCE37C81ED334622F9622F4C89AAE641046B2353433883F307FB7C974162DA72F7A4EC75D9D657336865B8D3023D3D645667625C9A07A6B7A137CF0C64198AE38FC238006FB2603F41F4F3BB9DA1347270F2F5D8C606E420958C5F7D50A71DE30142F70DE468889B5E3A08695B938A50FC980393A9CBCE44AD2D64F630BB33AD3F5F5FD495D31F37818C1D94071342E07F1BEC2194F6035BA5DED3936500EB82DFDA6E8AFB655B1EF3D0D7EBF86B66DD9F29F6B1D324FE8B26CE38AB2013DD13F611E7A594D675C4432350EA244CC34F3873CBA06592987A1D7E852ADC22EF5A2EE28132031E48F74037E3B34AB747F</DF02> <!--Public Key Moudle-->
+    <DF03>F910A1504D5FFB793D94F3B500765E1ABCAD72D9</DF03>
+    <DF06>01</DF06> <!--Public Key Hash Algorithm-->
+    <DF07>01</DF07> <!--Public Key Algorithm-->
+</capk>
+
+<capk>
+    <9F06>A000000658</9F06> <!--RID-->
+    <9F22>31</9F22> <!--Public Key Index-->
+    <DF05>20251001</DF05> <!--Public Key Expired Date-->
+    <DF04>010001</DF04> <!--Public Key Exponent-->
+    <DF02>DB2E9258EA946BE45EB4DD8CC5EBE9C09584C185625222372DE4050AB044C6EE754D374E75156B4FB263257B7D4DB9DB28B694380980A75CC727453B8016E06A1DB1CA5E1C3EBB3314A90025D37DFC9C88CA2FA0434F60713AD36F9D493EB4794E3F962C9EC14B6ACFDFC3C094EB1AE8042229A1387CF8640F19891303BE952380DBF820EDBD9C3F0898E146733B87EE9F48768211D8C28A6042E6549054CA6090E31F6B00F59A1914169E8D55C2C244FFE817FD9A3309112DD08E564F7C44EE0C3E9967620D942C956B0F3B934227587684802B751B07074F9FB063F231DCEEB89970185846D94FB14777AE9DE4344D</DF02> <!--Public Key Moudle-->
+    <DF03>7776F0A48A233A13EAAEA5D901B30ED283640C37</DF03>
+    <DF06>01</DF06> <!--Public Key Hash Algorithm-->
+    <DF07>01</DF07> <!--Public Key Algorithm-->
+</capk>
+<!--MIR-->
+<capk>
+    <9F06>A000000658</9F06> <!--RID-->
+    <9F22>32</9F22> <!--Public Key Index-->
+    <DF05>20251001</DF05> <!--Public Key Expired Date-->
+    <DF04>010001</DF04> <!--Public Key Exponent-->
+    <DF02>D4D0A1A26221E03E4DB81461F47DB1937694833F973A3891CA63270142F5EC67318E2BA7B28339C78F170A21B993677669AA47194AAB894510A9378EF177F9E259087228C73830FF593EE5E4DD4BD4BBE950FA448761BADE6F5093C562B582B8E0D07E0307A63034A4CF69B4692B1039052197DBF88FCD1C77CFE865410593CE8D6DEB41FEF7A102374CC06D28D8BBAAB58B60A5D3D9D238CE3F2D9F3A2CA63E15ADD839638556F4CA8D59B39DABB114D3558083D8EB9C7F97DDF02B7D947F3CB167CB869CC4C547</DF02> <!--Public Key Moudle-->
+    <DF03>3B6F29842564BE86AC9DAFCAFA657965D863C63B</DF03>
+    <DF06>01</DF06> <!--Public Key Hash Algorithm-->
+    <DF07>01</DF07> <!--Public Key Algorithm-->
+</capk>
+<!--MIR-->
+<capk>
+    <9F06>A000000658</9F06> <!--RID-->
+    <9F22>33</9F22> <!--Public Key Index-->
+    <DF05>20201001</DF05> <!--Public Key Expired Date-->
+    <DF04>010001</DF04> <!--Public Key Exponent-->
+    <DF02>A8306E9E579AA071AE06DC87B8DC5E1F618B6F37DE4AFBBAB9A37E21738C5E19BC4A130689A11ED10DD6BEDDFDA6318E44AE2AEB5E5C62AFCFBF54717135EE0DC07155619D2074D66DBAA01ADFDA7638A661C8EA31BE6D0530BEBFBA9E4C748873C6575887761FA4E0E2C530F1D81EA3E2F0408B13FDCA97595D695E92B4526A86F033AE95C79872AFF7165CCF7A08FD</DF02> <!--Public Key Moudle-->
+    <DF03>1D1D460D338CF436F9A0587E83A85927DDD174E8</DF03>
+    <DF06>01</DF06> <!--Public Key Hash Algorithm-->
+    <DF07>01</DF07> <!--Public Key Algorithm-->
+</capk>
+<!--MIR-->
+<capk>
+    <9F06>A000000658</9F06> <!--RID-->
+    <9F22>34</9F22> <!--Public Key Index-->
+    <DF05>20301201</DF05> <!--Public Key Expired Date-->
+    <DF04>010001</DF04> <!--Public Key Exponent-->
+    <DF02>DAB08FFCDF8431AE35ADDC3749FF56477AE0309EF2EDC123542CEE63BD97258F7AC6A4BF86256D10CAE9393D762E83EB4212BF38C0A948CBAA7AA199B07AF67FCABA39123E5435A4346F7EC243FED0E204152978AD99D1057E2187C05E59FED327C21DE94BF0B29D7B4AB8E23886446C353513AE7345B61FA56359CF5153CF58D6F63253663436549E802469F5263214180E915F7CDBBD0BD73046D1DD8F886968AB2EE43C01CDAA1EC96847886224BE149C1301FAEA686DA3421C12389A9C30545D17479C3A24899333DE0BE66A4601E8744DA04495388CA5E122D86FD42C1D37190A8C47F42A8A8BAEA0FF9E18FD4172D765471575217B</DF02> <!--Public Key Moudle-->
+    <DF03>ADBF1706ADD02AA0F22AE7A1F1256362D4AE33F7</DF03>
+    <DF06>01</DF06> <!--Public Key Hash Algorithm-->
+    <DF07>01</DF07> <!--Public Key Algorithm-->
+</capk>
