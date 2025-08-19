@@ -205,18 +205,26 @@
 	<9F8240>01</9F8240><!--Dectec CDA before GAC-->
 </app>
 
-<app><!--9:A0000000651010-->
+<app><!--10:A0000000651010-->
 	<9F06>A0000000651010</9F06> <!--Application Identifier(AID)–terminal-->
 	<DF01>00</DF01> <!--Application Selection Indicator-->
-	<9F09>0200</9F09> <!--Terminal Application Version Number-->
+	<9F09>0002</9F09> <!--Terminal Application Version Number-->
 	<9F1B>00000000</9F1B> <!--Terminal Floor Limit-->
 	<9F8125>9F3704</9F8125> <!--Contact Default Dynamic Data Authentication Data Object List (DDOL)-->
 	<9F8127>00</9F8127> <!--Contact Maximum Target Percentage to be Used for Biased Random Selection-->
 	<9F8128>00</9F8128> <!--Contact Target Percentage to Be Used for Random Selection-->
 	<9F8129>00000000</9F8129> <!--Contact Threshold Value for Biased random Selection-->
-	<9F812A>FC6024A800</9F812A> <!--Contact Terminal Action Code Default-->
+	<9F812A>D84000A800</9F812A> <!--Contact Terminal Action Code Default-->
 	<9F812B>0010000000</9F812B> <!--Contact Terminal Action Code Denial-->
-	<9F812C>FC6024A800</9F812C> <!--Contact Terminal Action Code Online-->
+	<9F812C>D84004F800</9F812C> <!--Contact Terminal Action Code Online-->
+	<9F8204>7B00</9F8204>
+	<9F8205>730000</9F8205>
+	<9F8206>F8</9F8206>
+	<9F8207>FC</9F8207>
+	<9F8212>000002000000</9F8212> <!--Contactless Amount Limit On Device-->
+	<9F8208>000002000000</9F8208> <!--Contactless Amount Limit-->
+	<9F8209>000000004500</9F8209> <!--Contactless CVM Amount Limit-->
+	<9F820A>000000000000</9F820A> <!--Contactless Terminal Offline Floor Limit-->
 </app>
 
 <app><!--11:A0000003330101-->
@@ -431,3 +439,4 @@
     <DF06>01</DF06> <!--Public Key Hash Algorithm-->
     <DF07>01</DF07> <!--Public Key Algorithm-->
 </capk>
+
