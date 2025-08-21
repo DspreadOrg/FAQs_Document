@@ -362,7 +362,7 @@
     <DF7A>E000F0F001</DF7A> <!--ContactlessAdditionalTerminal Capabilities-->
 </app>
 
-<app>
+<app><!--AAA00000010001-pure kernel -->
     <9F06>AAA00000010001</9F06> <!--Application Identifier(AID)–terminal no encontrado-->
     <5F2A>0170</5F2A> <!--Transaction Currency Code-->
     <5F36>02</5F36> <!--Transaction Currency Exponent-->
@@ -403,9 +403,11 @@
     <DF78>000025000000</DF78> <!--ContactlessTerminal Execute Cvm Limit-->
     <DF79>E0F8C8</DF79> <!--ContactlessTerminal Capabilities-->
     <DF7A>E000F0F001</DF7A> <!--ContactlessAdditionalTerminal Capabilities-->
+	<7F10>9F9311309F029F039F26829F369F279F109F1A955F2A9A9C9F379F35579F34845F345AC79F339F739F779F459F199F249F259F6E9F8208060000200000009F8209060000030000009F820A06000000000000</7F10><!--Additional Tag-->
+    <7F11>9F2A01229F930901909F9312028C579F93130582959F77849F93010524044000999F930201D7</7F11>	
 </app>
 
-<app>
+<app><!--AAA00000010002-pure kernel -->
     <9F06>AAA00000010002</9F06> <!--Application Identifier(AID)–terminal Exito, alkosto y Codensa-->
     <5F2A>0170</5F2A> <!--Transaction Currency Code-->
     <5F36>02</5F36> <!--Transaction Currency Exponent-->
@@ -1117,4 +1119,5 @@
     <DF05>20251231</DF05> <!--Public Key Expired Date-->
     <DF06>01</DF06> <!--Public Key Hash Algorithm-->
     <DF07>01</DF07> <!--Public Key Algorithm-->
+
 </capk>
