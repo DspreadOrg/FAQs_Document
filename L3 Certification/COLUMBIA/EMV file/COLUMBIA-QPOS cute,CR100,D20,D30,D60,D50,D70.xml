@@ -214,12 +214,13 @@
 	<9F820A>000000000000</9F820A> <!--Contactless Floor Limit-->
 </app>
 
-<app><!--11 AAA00000010001-->
-	<9F06>AAA00000010001</9F06> <!--Application Identifier(AID)–terminal-->
-	<DF01>00</DF01> <!--Application Selection Indicator-->
-	<9F09>0096</9F09> <!--Terminal Application Version Number-->
+<app><!--5:AAA00000010001-pure kernel -->
+    <9F06>AAA00000010001</9F06> <!--Application Identifier(AID)–terminal-->
+    <9F2A>22</9F2A> <!--Kernel ID-->
+    <DF01>00</DF01> <!--Application Selection Indicator-->
 	<9F1B>00000000</9F1B> <!--Terminal Floor Limit-->
-	<9F66>32C04000</9F66> <!--Terminal Default Transaction Qualifiers-->
+	<9F09>0096</9F09> <!--Application Version Number-->
+    <9F1D>4C00800000</9F1D> <!--Terminal Risk Management Parameters-->
 	<9F8125>9F3704</9F8125> <!--Contact Default Dynamic Data Authentication Data Object List (DDOL)-->
 	<9F8127>00</9F8127> <!--Contact Maximum Target Percentage to be Used for Biased Random Selection-->
 	<9F8128>00</9F8128> <!--Contact Target Percentage to Be Used for Random Selection-->
@@ -227,29 +228,53 @@
 	<9F812A>DC4000A800</9F812A> <!--Contact Terminal Action Code Default-->
 	<9F812B>0010000000</9F812B> <!--Contact Terminal Action Code Denial-->
 	<9F812C>DC4004F800</9F812C> <!--Contact Terminal Action Code Online-->
+    <9F8245>F45084800C</9F8245> <!--Contactless Terminal Action Code Default-->
+    <9F8246>0000000000</9F8246> <!--Contactless Terminal Action Code Denial-->
+    <9F8247>F45084800C</9F8247> <!--Contactless Terminal Action Code Online-->
+    <9F9309>90</9F9309> <!--Transaction Type value for Application Authentication Transactions-->
+    <9F9311>9F029F039F26829F369F279F109F1A955F2A9A9C9F379F35579F34845F345AC79F339F739F779F459F199F249F259F6E</9F9311> <!--Additional Tag Object List(ATOL)-->
+    <9F9312>8C57</9F9312> <!--Mandatory Tag Object List(MTOL)-->
+    <9F9313>82959F7784</9F9313> <!--Authentication Transaction Data Tag Object List(ATDTOL)-->
+    <9F9301>2404400099</9F9301> <!--Contactless Application Capabilities-->
+    <9F9302>D7</9F9302> <!--Contactless POS Implementation Options-->
+    <9F9314>9F3704</9F9314> <!--Default DDOL-->
+    <9F8243>00</9F8243> <!--Target Percentage for Biased Random Selection-->
+    <9F8244>000000000000</9F8244> <!--Threshold Value for Biased random Selection-->
 	<9F8208>003000000000</9F8208> <!--Contactless Amount Limit-->
 	<9F8209>000025000000</9F8209> <!--Contactless CVM Amount Limit-->
 	<9F820A>000000000000</9F820A> <!--Contactless Floor Limit-->
 </app>
 
-<app><!--12 AAA00000010002-->
-    <9F06>AAA00000010002</9F06> <!--Application Identifier(AID)–terminal   Exito, alkosto y Codensa-->
+<app><!--5:AAA00000010002-pure kernel -->
+    <9F06>AAA00000010002</9F06> <!--Application Identifier(AID)–terminal-->
+    <9F2A>22</9F2A> <!--Kernel ID-->
     <DF01>00</DF01> <!--Application Selection Indicator-->
-    <9F09>0096</9F09> <!--Terminal Application Version Number-->
-    <9F1B>00000000</9F1B> <!--Terminal Floor Limit-->
-    <9F66>32C04000</9F66> <!--Terminal Default Transaction Qualifiers-->
-    <9F8125>9F3704</9F8125> <!--Contact Default Dynamic Data Authentication Data Object List (DDOL)-->
-    <9F8127>00</9F8127> <!--Contact Maximum Target Percentage to be Used for Biased Random Selection-->
-    <9F8128>00</9F8128> <!--Contact Target Percentage to Be Used for Random Selection-->
-    <9F8129>00000000</9F8129> <!--Contact Threshold Value for Biased random Selection-->
-    <9F812A>DC4000A800</9F812A> <!--Contact Terminal Action Code Default-->
-    <9F812B>0010000000</9F812B> <!--Contact Terminal Action Code Denial-->
-    <9F812C>DC4004F800</9F812C> <!--Contact Terminal Action Code Online-->
-    <9F8208>003000000000</9F8208> <!--Contactless Amount Limit-->
-    <9F8209>000025000000</9F8209> <!--Contactless CVM Amount Limit-->
-    <9F820A>000000000000</9F820A> <!--Contactless Floor Limit-->
+	<9F1B>00000000</9F1B> <!--Terminal Floor Limit-->
+	<9F09>0096</9F09> <!--Application Version Number-->
+    <9F1D>4C00800000</9F1D> <!--Terminal Risk Management Parameters-->
+	<9F8125>9F3704</9F8125> <!--Contact Default Dynamic Data Authentication Data Object List (DDOL)-->
+	<9F8127>00</9F8127> <!--Contact Maximum Target Percentage to be Used for Biased Random Selection-->
+	<9F8128>00</9F8128> <!--Contact Target Percentage to Be Used for Random Selection-->
+	<9F8129>00000000</9F8129> <!--Contact Threshold Value for Biased random Selection-->
+	<9F812A>DC4000A800</9F812A> <!--Contact Terminal Action Code Default-->
+	<9F812B>0010000000</9F812B> <!--Contact Terminal Action Code Denial-->
+	<9F812C>DC4004F800</9F812C> <!--Contact Terminal Action Code Online-->
+    <9F8245>F45084800C</9F8245> <!--Contactless Terminal Action Code Default-->
+    <9F8246>0000000000</9F8246> <!--Contactless Terminal Action Code Denial-->
+    <9F8247>F45084800C</9F8247> <!--Contactless Terminal Action Code Online-->
+    <9F9309>90</9F9309> <!--Transaction Type value for Application Authentication Transactions-->
+    <9F9311>9F029F039F26829F369F279F109F1A955F2A9A9C9F379F35579F34845F345AC79F339F739F779F459F199F249F259F6E</9F9311> <!--Additional Tag Object List(ATOL)-->
+    <9F9312>8C57</9F9312> <!--Mandatory Tag Object List(MTOL)-->
+    <9F9313>82959F7784</9F9313> <!--Authentication Transaction Data Tag Object List(ATDTOL)-->
+    <9F9301>2404400099</9F9301> <!--Contactless Application Capabilities-->
+    <9F9302>D7</9F9302> <!--Contactless POS Implementation Options-->
+    <9F9314>9F3704</9F9314> <!--Default DDOL-->
+    <9F8243>00</9F8243> <!--Target Percentage for Biased Random Selection-->
+    <9F8244>000000000000</9F8244> <!--Threshold Value for Biased random Selection-->
+	<9F8208>003000000000</9F8208> <!--Contactless Amount Limit-->
+	<9F8209>000025000000</9F8209> <!--Contactless CVM Amount Limit-->
+	<9F820A>000000000000</9F820A> <!--Contactless Floor Limit-->
 </app>
-
 
 <capk>
     <9F06>AAA0000001</9F06> <!--RID-->
@@ -613,3 +638,4 @@
     <DF06>01</DF06> <!--Public Key Hash Algorithm-->
     <DF07>01</DF07> <!--Public Key Algorithm-->
 </capk>
+
