@@ -18,7 +18,6 @@
 	<9F8302>01</9F8302><!--Contactless Terminal extended SELECT command-->
 	<9F8304>01</9F8304><!--Contactless Terminal checking the PPSE DF name-->
 	<9F8303>01</9F8303><!--Support AID Choosing-->
-	<9F8303>01</9F8303><!--Support AID Choosing-->
 	<7F15>7F16239F821801069F8208060000999999999F8209060000999999999F820A060000000000007F16239F8218010B9F8208060000999999999F8209060000999999999F820A06000000000000</7F15><!--AMEX DRL-->
 </app>
 
@@ -632,6 +631,7 @@
     <DF06>01</DF06> <!--Public Key Hash Algorithm-->
     <DF07>01</DF07> <!--Public Key Algorithm-->
 </capk>
+
 
 
 
