@@ -6,7 +6,6 @@
 	<9F15>1234</9F15><!--Merchant Category Code-->
 	<9F16>424354455354313233343536373839</9F16><!--Merchant Identifier-->
 	<9F1A>0586</9F1A><!--Terminal Country Code-->
-	<DF76></DF76> <!--Default Tdol-->
 	<9F1C>4E4C2D4750373330</9F1C><!--Terminal Identification-->
 	<9F1E>3833323031494343</9F1E><!--Interface Device (IFD) Serial Number-->
 	<9F33>E0F8C8</9F33><!--Terminal Capabilities-->
@@ -14,11 +13,11 @@
 	<9F39>05</9F39><!--Point-of-Service (POS) Entry Mode-->
 	<9F40>7000B0A001</9F40><!--Additional Terminal Capabilities-->
 	<9F4E>61626364</9F4E><!--Merchant Name and Location-->
-	<9F53>52</9F53><!--Mastercard Merchant category code-->
-	<9F821C>01</9F821C><!--Contact Terminal cardholder confirmation-->
-	<9F8725>01</9F8725><!--Contact Terminal PSE-->
-	<9F8302>01</9F8302><!--Contactless Terminal extended SELECT command-->
-	<9F8304>01</9F8304><!--Contactless Terminal checking the PPSE DF name-->
+	<9F8117>01</9F8117><!--Contact Boolean indicating whether the PSE-->
+	<9F8118>00</9F8118><!--Contact reselect pse-->
+	<9F8143>01</9F8143><!--Contact floor limit checking-->
+	<9F8145>01</9F8145><!--Contact Velocity Checking-->
+	<9F8147>00</9F8147><!--Contact Transaction force online-->
 	<9F8303>01</9F8303><!--Support AID Choosing-->
 	<7F15>7F16239F821801069F8208060000000007009F8209060000000002009F820A060000000004007F16239F8218010B9F8208060000000003009F8209060000000002009F820A06000000000100</7F15><!--AMEX DRL-->
 </app>
@@ -177,6 +176,7 @@
 	<9F06>A0000000041010</9F06> <!--Application Identifier(AID)–terminal-->
 	<5F2A>0586</5F2A><!--Transaction Currency Code-->
 	<DF01>00</DF01> <!--Application Selection Indicator-->
+	<9F53>52</9F53><!--Mastercard Merchant category code-->
 	<9F09>0002</9F09> <!--Terminal Application Version Number-->
 	<9F1A>0586</9F1A><!--Terminal Country Code-->
 	<9F1B>00000000</9F1B> <!--Terminal Floor Limit-->
@@ -222,6 +222,7 @@
 <app><!--6:A0000000043060-->
 	<9F06>A0000000043060</9F06> <!--Application Identifier(AID)–terminal-->
 	<5F2A>0586</5F2A><!--Transaction Currency Code-->
+	<9F53>52</9F53><!--Mastercard Merchant category code-->
 	<DF01>00</DF01> <!--Application Selection Indicator-->
 	<9F09>0002</9F09> <!--Terminal Application Version Number-->
 	<9F1A>0586</9F1A><!--Terminal Country Code-->
@@ -718,5 +719,6 @@
     <DF06>01</DF06> <!--Public Key Hash Algorithm-->
     <DF07>01</DF07> <!--Public Key Algorithm-->
 </capk>
+
 
 
