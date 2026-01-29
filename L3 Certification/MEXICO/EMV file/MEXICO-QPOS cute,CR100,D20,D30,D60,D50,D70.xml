@@ -40,7 +40,7 @@
 	<9F92810A>FE00</9F92810A> <!--Contactless Terminal Limit Configuration-->
 	<9F92810D>999999999999</9F92810D> <!--Contactless Amount Limit-->
 	<9F92810E>000000000000</9F92810E> <!--Contactless CVM Amount Limit-->
-	<9F92810F>000000001388</9F92810F> <!--Contactless Terminal Offline Floor Limit-->
+	<9F92810F>000000000000</9F92810F> <!--Contactless Terminal Offline Floor Limit-->
 </app>
 
 <app><!--3:A0000000032010-->
@@ -61,7 +61,7 @@
 	<9F92810A>FE00</9F92810A> <!--Contactless Terminal Limit Configuration-->
 	<9F92810D>999999999999</9F92810D> <!--Contactless Amount Limit-->
 	<9F92810E>000000000000</9F92810E> <!--Contactless CVM Amount Limit-->
-	<9F92810F>000000001388</9F92810F> <!--Contactless Terminal Offline Floor Limit-->
+	<9F92810F>000000000000</9F92810F> <!--Contactless Terminal Offline Floor Limit-->
 </app>
 
 <app><!--4:A0000000033010-->
@@ -82,7 +82,7 @@
 	<9F92810A>FE00</9F92810A> <!--Contactless Terminal Limit Configuration-->
 	<9F92810D>999999999999</9F92810D> <!--Contactless Amount Limit-->
 	<9F92810E>000000000000</9F92810E> <!--Contactless CVM Amount Limit-->
-	<9F92810F>000000001388</9F92810F> <!--Contactless Terminal Offline Floor Limit-->
+	<9F92810F>000000000000</9F92810F> <!--Contactless Terminal Offline Floor Limit-->
 </app>
 
 <app><!--5:A0000000041010-->
@@ -631,6 +631,7 @@
     <DF06>01</DF06> <!--Public Key Hash Algorithm-->
     <DF07>01</DF07> <!--Public Key Algorithm-->
 </capk>
+
 
 
 
