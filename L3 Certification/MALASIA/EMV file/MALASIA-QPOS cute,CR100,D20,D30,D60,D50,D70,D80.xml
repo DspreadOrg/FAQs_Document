@@ -103,6 +103,7 @@
 	<9F1B>00000000</9F1B> <!--Terminal Floor Limit-->
 	<9F1D>6C00800000000000</9F1D> <!--Terminal Risk Management Parameters-->
     <9F5C>0000000000000000</9F5C>
+	<9F53>52</9F53><!--Mastercard Merchant category code-->	
 	<9F6D>0001</9F6D> <!--Contactless Mag-stripe Application Version Number (Reader)-->
 	<9F7E></9F7E> <!--Mobile Support Indicator-->
 	<9F8125>9F3704</9F8125> <!--Contact Default Dynamic Data Authentication Data Object List (DDOL)-->
@@ -269,3 +270,4 @@
     <DF07>01</DF07> <!--Public Key Algorithm-->
 
 </capk>
+
