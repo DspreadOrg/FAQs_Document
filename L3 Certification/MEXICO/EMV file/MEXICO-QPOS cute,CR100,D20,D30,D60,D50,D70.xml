@@ -13,10 +13,11 @@
 	<9F39>00</9F39><!--Point-of-Service (POS) Entry Mode-->
 	<9F40>F000F0A001</9F40><!--Additional Terminal Capabilities-->
 	<9F4E>313132323333343435353636373738</9F4E><!--Merchant Name and Location-->
-	<9F821C>01</9F821C><!--Contact Terminal cardholder confirmation-->
-	<9F8725>01</9F8725><!--Contact Terminal PSE-->
-	<9F8302>01</9F8302><!--Contactless Terminal extended SELECT command-->
-	<9F8304>01</9F8304><!--Contactless Terminal checking the PPSE DF name-->
+	<9F8117>01</9F8117><!--Contact Boolean indicating whether the PSE-->
+	<9F8118>00</9F8118><!--Contact reselect pse-->
+	<9F8143>01</9F8143><!--Contact floor limit checking-->
+	<9F8145>01</9F8145><!--Contact Velocity Checking-->
+	<9F8147>00</9F8147><!--Contact Transaction force online-->
 	<9F8303>01</9F8303><!--Support AID Choosing-->
 	<7F15>7F16239F821801069F8208060000999999999F8209060000999999999F820A060000000000007F16239F8218010B9F8208060000999999999F8209060000999999999F820A06000000000000</7F15><!--AMEX DRL-->
 </app>
@@ -630,6 +631,7 @@
     <DF06>01</DF06> <!--Public Key Hash Algorithm-->
     <DF07>01</DF07> <!--Public Key Algorithm-->
 </capk>
+
 
 
 
