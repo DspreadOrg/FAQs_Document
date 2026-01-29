@@ -13,14 +13,12 @@
 	<9F39>07</9F39><!--Point-of-Service (POS) Entry Mode-->
 	<9F40>6000C02001</9F40><!--Additional Terminal Capabilities-->
 	<9F4E>536872657961</9F4E><!--Merchant Name and Location-->
-	<9F821C>01</9F821C><!--Contact Terminal cardholder confirmation-->
-	<9F8725>01</9F8725><!--Contact Terminal PSE-->
-	<9F8302>01</9F8302><!--Contactless Terminal extended SELECT command-->
-	<9F8304>01</9F8304><!--Contactless Terminal checking the PPSE DF name-->
+	<9F8117>01</9F8117><!--Contact Boolean indicating whether the PSE-->
+	<9F8118>00</9F8118><!--Contact reselect pse-->
+	<9F8143>01</9F8143><!--Contact floor limit checking-->
+	<9F8145>01</9F8145><!--Contact Velocity Checking-->
+	<9F8147>00</9F8147><!--Contact Transaction force online-->
 	<9F8303>01</9F8303><!--Support AID Choosing-->
-	<DF11>A468DC9800</DF11> <!--TAC Default-->
-	<DF12>A468FC9800</DF12> <!--TAC Online-->
-	<DF13>1010000000</DF13> <!--TAC Denial-->
 	<9F92810D>000002000000</9F92810D> <!--Contactless Amount Limit-->
 	<DF8204>01</DF8204> <!--Support Rupay Application Block-->
 	<7F15>7F16239F821801069F8208060000020000009F8209060000005000009F820A060000000000007F16239F8218010B9F8208060000020000009F8209060000005000009F820A06000000000000</7F15><!--AMEX DRL-->	
@@ -827,6 +825,7 @@
 	<DF06>01</DF06> <!--Public Key Hash Algorithm-->
 	<DF07>01</DF07> <!--Public Key Algorithm-->
 </capk>
+
 
 
 
