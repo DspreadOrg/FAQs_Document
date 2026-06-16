@@ -206,6 +206,7 @@
 	<9F8205>708000</9F8205>
 	<9F8206>F8</9F8206>
 	<9F8207>FC</9F8207>
+	<9F8212>000000100000</9F8212> <!--Contactless On-Device Amount Limit-->
 	<9F8208>000000100000</9F8208> <!--Contactless Amount Limit-->
 	<9F8209>000000010000</9F8209> <!--Contactless CVM Amount Limit-->
 	<9F820A>000000000000</9F820A> <!--Contactless Terminal Offline Floor Limit-->
