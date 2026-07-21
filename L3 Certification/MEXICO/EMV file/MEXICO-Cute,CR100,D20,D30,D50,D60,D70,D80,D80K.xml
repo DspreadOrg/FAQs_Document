@@ -127,6 +127,7 @@
 	<DF8125>999999999999</DF8125> <!--Contactless Reader Contactless Transaction Limit (On-device CVM)-->
 	<DF8126>000000050000</DF8126> <!--Contactless Reader CVM Required Limit-->
 	<DF812C>00</DF812C> <!--Contactless Mag-stripe CVM Capability – No CVM Required-->
+	<7F11>9C0120DF812105FFFFFFFFFF</7F11> <!--Defined By Kernel Space 2 Defined By Special Transaction Type-->
 </app>
 
 <app><!--8:A00000002501-->
